@@ -11,6 +11,18 @@ decompressed and tar'ed into silesia.tar.
 
 CPU = Intel(R) Core(TM) i5-3470 CPU @ 3.20GHz, 4 cores
 
+Tested on Fedora 38 which carries the following versions of
+zstd and xz:
+
+```
+$ zstd --version
+*** Zstandard CLI (64-bit) v1.5.5, by Yann Collet ***
+
+$ xz --version
+xz (XZ Utils) 5.4.1
+liblzma 5.4.1
+```
+
 Note that in terms of decompression speed, zstd blows xz out of
 the water:
 
